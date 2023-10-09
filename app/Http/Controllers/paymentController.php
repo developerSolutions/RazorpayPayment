@@ -7,6 +7,7 @@ use Razorpay\Api\Api;
 
 class paymentController extends Controller
 {
+
     public function payment(Request $request)
     {
        if(!empty($request->razorpay_payment_id)){
